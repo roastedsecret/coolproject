@@ -3,9 +3,9 @@ window.KOVA_CONFIG = {
   // Direct link to the Windows installer. A GitHub Releases link that always points at the newest build works well:
   // https://github.com/<owner>/<repo>/releases/latest/download/Kova-Setup.exe
   downloadUrl: '',          // [INSTALLER URL]
-  version: '[VERSION]',
-  fileSize: '[FILE SIZE]',
-  sha256: '[SHA-256 CHECKSUM]'
+  version: '0.2.1',
+  fileSize: '1.34MB',
+  sha256: '8a032355fa41a672118051ae06ffcb29dffcd76307eb42c774d357f50243709c'
 };
 
 (function () {
