@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found · Kova</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/favicon.ico">
+<link rel="stylesheet" href="/assets/fonts/fonts.css">
+<style>
+  body{margin:0;min-height:100vh;display:flex;align-items:center;background:#FFB224;color:#16120D;font-family:'Funnel Sans',system-ui,sans-serif;font-size:18px}
+  main{max-width:760px;margin:0 auto;padding:48px 24px}
+  h1{font-family:'Funnel Display',sans-serif;font-weight:700;font-size:clamp(44px,8vw,96px);line-height:.94;letter-spacing:-.05em;margin:0 0 20px}
+  p{margin:0 0 32px;color:#3B2A10}
+  a{display:inline-block;background:#16120D;color:#fff;text-decoration:none;font-weight:600;padding:17px 26px;border-radius:12px}
+  a:focus-visible{outline:2.5px solid #16120D;outline-offset:3px}
+</style>
+</head>
+<body>
+<main>
+  <h1>This page isn't here.</h1>
+  <p>The link may be old, or the page may have moved.</p>
+  <a href="./" id="home">Go to the Kova homepage</a>
+</main>
+<script>
+  // On a GitHub project site the home page lives one folder deep; send people to its root.
+  (function(){var p=location.pathname.split('/').filter(Boolean);if(location.hostname.endsWith('github.io')&&p.length){document.getElementById('home').href='/'+p[0]+'/';}else{document.getElementById('home').href='/';}})();
+</script>
+</body>
+</html>

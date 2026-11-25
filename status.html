@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Status · Kova</title>
+<meta name="description" content="Current status of Kova services and recent incidents.">
+<link rel="canonical" href="https://joinkova.eu/status.html">
+<meta name="theme-color" content="#FFB224">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<link rel="icon" href="assets/kova-icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/fonts/fonts.css">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="nav">
+    <a class="brand" href="index.html" aria-label="Kova home"><img src="assets/kova-logo-color.svg" alt="Kova" width="112" height="38"></a>
+    <nav class="nav-links" id="site-menu" aria-label="Main">
+      <a href="index.html#product">Product</a>
+      <a href="index.html#how">How it works</a>
+      <a href="index.html#security">Security</a>
+      <a href="index.html#pricing">Pricing</a>
+      <a class="nav-signin-mobile" href="download.html">Sign in</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="nav-signin" href="download.html">Sign in</a>
+      <a class="btn btn-ink btn-sm" href="download.html">Try Kova free</a>
+    </div>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Open menu">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h16M3 11h16M3 16h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main" class="wrap status-page" data-status-page>
+  <h1>Kova status</h1>
+
+  <div class="status-banner" data-banner data-state="loading" role="status">
+    <span class="status-dot" aria-hidden="true"></span>
+    <div>
+      <p class="status-title" data-banner-title>Checking status…</p>
+      <p class="status-sub" data-updated></p>
+    </div>
+  </div>
+
+  <noscript>
+    <p class="status-note">Turn on JavaScript to see live status, or email <a href="mailto:support@joinkova.eu">support@joinkova.eu</a>.</p>
+  </noscript>
+
+  <h2>Services</h2>
+  <ul class="components" data-components aria-live="polite"></ul>
+
+  <h2>Recent incidents</h2>
+  <div data-incidents>
+    <p class="status-note">Loading…</p>
+  </div>
+
+  <p class="status-note">Something not working that isn't listed here? Email <a href="mailto:support@joinkova.eu">support@joinkova.eu</a>.</p>
+</main>
+
+
+
+<footer class="wrap site-footer">
+  <div class="left">
+    <img src="assets/kova-logo-color.svg" alt="Kova" width="94" height="32">
+    <span>Made by David Keller in Zürich. Talk to us at <a href="mailto:hello@joinkova.eu">hello@joinkova.eu</a>.</span>
+  </div>
+  <nav aria-label="Footer">
+    <a href="download.html">Download</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="privacy.html#cookies">Cookies</a>
+    <a href="terms.html">Terms</a>
+    <a href="imprint.html">Legal notice</a>
+    <a href="security.html">Security</a>
+    <a aria-current="page" href="status.html">Status</a>
+  </nav>
+</footer>
+
+<script src="assets/site.js"></script>
+<script src="assets/status.js"></script>
+</body>
+</html>
