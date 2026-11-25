@@ -1,8 +1,8 @@
 {
   "updated": "2026-11-25T12:00:00+01:00",
   "components": [
-    { "name": "Sign-in and accounts", "status": "operational" },
-    { "name": "Messages and channels", "status": "operational" },
+    { "name": "Sign-in and accounts", "status": "degraded" },
+    { "name": "Messages and channels", "status": "maintenance" },
     { "name": "Contracts and e-signatures", "status": "operational" },
     { "name": "Guest access links", "status": "operational" },
     { "name": "Email notifications", "status": "operational" },
