@@ -4,7 +4,7 @@ window.KOVA_CONFIG = {
   // https://github.com/<owner>/<repo>/releases/latest/download/Kova-Setup.exe
   downloadUrl: '',          // [INSTALLER URL]
   version: '0.2.1',
-  fileSize: '1.34MB',
+  fileSize: '1.34 MB',
   sha256: '8a032355fa41a672118051ae06ffcb29dffcd76307eb42c774d357f50243709c'
 };
 
